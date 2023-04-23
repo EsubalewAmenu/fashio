@@ -1,0 +1,57 @@
+ <link rel="stylesheet" href="css/style.css">
+ .shoe-customization {
+  text-align: center;
+  margin: 50px;
+}
+
+.shoe-image {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  background-image: url('shoe.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+form {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+select {
+  display: inline-block;
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.shoe-customization {
+  text-align: center;
+  margin: 50px;
+}
+
+.shoe-image {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  background-image: url('shoe.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+

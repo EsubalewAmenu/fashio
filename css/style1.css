@@ -1,0 +1,99 @@
+*{
+marign:0;
+padding:11px;
+box-sizing:border-box;
+font-family:"poppins",sans-serif;
+}
+body{
+    background-color: aliceblue;
+   background-position:center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wrapper{
+    width: 450px;
+    padding: 2rem 1rem;
+    margin:50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1)
+}
+.logo12 img{
+    position:fixed;
+	top:0;
+    width: 125px;
+	left:0;
+}
+h1{
+    font-size: 2rem;
+    color: #07001f;
+    margin-bottom: 1.2rem;    
+    border-bottom: inset;
+}
+form input{
+    width: 92%;
+    outline: none;
+    border: 1px solid #fff;
+    font-size: 15px;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: #e4e4e4;
+}
+button{
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 90%;
+    color: #fff;
+    cursor: pointer;
+    background: #40739e;
+}
+.birthgender{
+    border-bottom-style: inset;
+
+
+}
+button:hover{
+    background:#40739e;
+}
+input:focus{
+    border: 1px solid #74b9ff;
+}
+.terms{
+    margin-top: 0.2px;
+}
+.terms input{
+    height: 2em;
+    width: 1em;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.terms label{
+    font-size: .9rem;
+}
+.terms a{
+    color: #40739e;
+    text-decoration: none;
+}
+.member{
+    font-size: 0.9rem;
+    margin-top: 1.4rem;
+    color: #636363;
+}
+.member a{
+color: #00a8ff;
+text-decoration: none;
+}
+.recover{
+    text-align: right;
+    font-size: 0.9rem;
+    margin: 0.3rem 1.4rem 0 0;
+}
+.recover a{
+    text-decoration: none;
+}

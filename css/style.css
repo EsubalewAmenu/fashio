@@ -1,0 +1,251 @@
+/* Basic styles */
+
+body {
+ font-family: Arial, sans-serif;
+ margin: 0;
+ padding: 0;
+}
+
+header, nav, section, footer {
+ margin: 0;
+ padding: 0;
+}
+
+nav ul {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  font-size: 24px;
+    color: floralwhite;
+  margin: 0;
+}
+
+
+
+/* Navigation */
+
+nav {
+  background-color: #504b4b;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 11px 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+
+/* Banner */
+.banner-image {
+  background-image: url('path/to/image.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: dimgrey;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+}
+.slick {
+  width: 80%; /* set the width of the slideshow container */
+  margin: 0 auto; /* center the container horizontally */
+}
+
+.slick p {
+     background-image: url('path/to/image.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: dimgrey;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+    }
+
+
+.slick .slick-dots {
+    bottom: 10px;
+    display: table-column;
+}
+
+.slick .slick-dots li button:before {
+  color: #fff; /* set the color of the dot navigation */
+  font-size: 12px; /* set the font size of the dots */
+
+}
+
+
+
+/* Featured Product */
+
+.featured-product {
+ background-color: #fff;
+ padding: 20px;
+ text-align: center;
+}
+
+.featured-product h2 {
+ margin-bottom: 20px;
+}
+
+.featured-product button.cta {
+ background-color: #333;
+ border: none;
+ color: #fff;
+ padding: 10px 20px;
+ font-size: 16px;
+ cursor: pointer;
+}
+
+.featured-product button.cta:hover {
+ background-color: #000;
+}
+
+/* Product List */
+
+.product-list {
+ background-color: #eee;
+ padding: 20px;
+}
+
+.product-list h2 {
+ margin-bottom: 20px;
+}
+
+.product-list ul {
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.product-list li {
+ background-color: #fff;
+ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+ flex-basis: calc(33.33% - 20px);
+ margin: 10px;
+ padding: 0px;
+ text-align: center;
+}
+
+.product-list li h3 {
+ margin-bottom: 10px;
+}
+
+.product-list li img {
+ max-width: 100%;
+ margin-bottom: 10px;
+}
+
+.product-list li p {
+ margin-bottom: 10px;
+}
+
+.product-list li button.cta {
+ background-color: #333;
+ border: none;
+ color: #fff;
+ padding: 10px 20px;
+ font-size: 16px;
+ cursor: pointer;
+}
+
+.product-list li button.cta:hover {
+ background-color: #000;
+}
+
+/* Contact Form */
+
+.contact {
+ background-color: #fff;
+ padding: 20px;
+}
+
+.contact h2 {
+ margin-bottom: 20px;
+}
+
+.contact form label {
+ display: block;
+ margin-bottom: 10px;
+}
+
+.contact form input[type="text"],
+.contact form input[type="email"],
+.contact form textarea {
+ width: 100%;
+ padding: 10px;
+ margin-bottom: 20px;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+ font-size: 16px;
+}
+
+.contact form textarea {
+ height: 150px;
+}
+
+.contact form button.cta {
+ background-color: #333;
+ border: none;
+ color: #fff;
+ padding: 10px 20px;
+ font-size: 16px;
+ cursor: pointer;
+}
+
+.contact form button.cta:hover {
+ background-color: #000;
+}
+
+/* Footer */
+
+footer {
+ background-color: #333;
+ color: #fff;
+ padding: 20px;
+ text-align: center;
+}
